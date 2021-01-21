@@ -63,12 +63,10 @@ module.exports = {
 				color: `#ef5350`
 			}
 		},
-		'gatsby-plugin-styled-components',
 		'gatsby-plugin-react-helmet',
 		'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',
 		'gatsby-plugin-mdx',
-		'gatsby-plugin-styled-components',
 		'gatsby-plugin-sitemap',
 		{
 			resolve: `gatsby-plugin-manifest`,

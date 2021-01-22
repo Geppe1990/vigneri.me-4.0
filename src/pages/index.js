@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby";
 import Layout from "../components/layout"
 import SEO from "../components/SEO"
+import "../styles/style.scss"
 
 export default ({ data }) => {
 	return (
@@ -11,9 +12,15 @@ export default ({ data }) => {
 				description={data.site.siteMetadata.description || ''}
 				pathname={data.site.siteMetadata.url}
 			/>
-            <div>
-                pippo
-            </div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
 		</Layout>
 	)
 }

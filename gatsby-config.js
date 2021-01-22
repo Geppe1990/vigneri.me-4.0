@@ -69,6 +69,15 @@ module.exports = {
 		'gatsby-plugin-mdx',
 		'gatsby-plugin-sitemap',
 		{
+			resolve: 'gatsby-plugin-sass',
+			options: {
+				postCssPlugins: [
+					require("tailwindcss"),
+					require("./tailwind.config.js"),
+				]
+			}
+		},
+		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
 				name: 'vigneri.me',

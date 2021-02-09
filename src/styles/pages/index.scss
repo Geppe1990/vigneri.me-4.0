@@ -1,0 +1,6 @@
+@import '../partials/variables';
+
+#homepage {
+    // height: calc(100vh - $navbarHeightDesktop);
+    height: calc(100vh - #{$navbarHeightDesktop});
+}

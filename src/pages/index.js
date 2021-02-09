@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby";
 import Layout from "../components/layout"
 import SEO from "../components/SEO"
-import "../styles/style.scss"
+import "../styles/pages/index.scss"
 
 export default ({ data }) => {
 	return (
@@ -12,15 +12,12 @@ export default ({ data }) => {
 				description={data.site.siteMetadata.description || ''}
 				pathname={data.site.siteMetadata.url}
 			/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae iste atque deserunt, odit nobis nemo, modi a laborum unde, quam asperiores voluptas harum sunt voluptates. Atque recusandae dignissimos accusantium!
+			<div id="homepage" className="flex justify-center items-center">
+				<div class="text-center">
+					<h1>Giuseppe Vigneri</h1>
+					<p>Web Developer</p>
+				</div>
+			</div>
 		</Layout>
 	)
 }

@@ -12,11 +12,15 @@ export default ({ data }) => {
 				description={data.site.siteMetadata.description || ''}
 				pathname={data.site.siteMetadata.url}
 			/>
-			<div id="homepage" className="flex justify-center items-center">
-				<div className="text-center">
-					<h1>Giuseppe Vigneri</h1>
-					<p>Web Developer</p>
+			<div id="homepage" className="flex justify-left items-center">
+				<div className="flex-1">
+					<h2>Giuseppe Vigneri</h2>
+					<h1>Creazione siti web Ferrara</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio quasi praesentium dicta provident repudiandae similique reiciendis fugit corporis possimus amet mollitia vitae ab at numquam, eius in? Adipisci, neque fuga.
+					</p>
 				</div>
+				<div className="flex-1"></div>
 			</div>
 		</Layout>
 	)

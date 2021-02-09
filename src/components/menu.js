@@ -21,7 +21,7 @@ export default () => {
 	return(
 		<nav className="flex items-center bg-gray-800 p-3 flex-wrap">
 			<Link to="#" className="p-2 mr-4 inline-flex items-center">
-				<span className="text-xl text-white font-bold uppercase tracking-wide">Talwind CSS</span>
+				<span className="text-xl text-white font-bold uppercase tracking-wide">Vigneri Giuseppe</span>
 			</Link>
 			<button
 				className="text-white inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
@@ -35,6 +35,7 @@ export default () => {
 					{site.siteMetadata.menuLinks.map(link => (
 						<li
 						key={link.name}
+						className="mx-1"
 						>
 							<Link 
 								className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
@@ -49,16 +50,3 @@ export default () => {
 		</nav>
 	)
 }
-
-const query = graphql`
-	query Menu {
-		site {
-			siteMetadata {
-				menuLinks {
-					name
-					link
-				}
-			}
-		}
-	}
-`

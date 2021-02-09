@@ -13,6 +13,16 @@ module.exports = {
 		url: "https://www.vigneri.me",
 		siteUrl: "https://www.vigneri.me",
 		defaultTitle: "Vigneri Giuseppe - Front-end Web Developer",
+		menuLinks: [
+			{
+				name: 'home',
+				link: '/'
+			},
+			{
+				name: 'page2',
+				link: '/page-2'
+			}
+		]
 	},
 	plugins: [
 		'gatsby-plugin-netlify',

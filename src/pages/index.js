@@ -13,7 +13,7 @@ export default ({ data }) => {
 				pathname={data.site.siteMetadata.url}
 			/>
 			<div id="homepage" className="flex justify-center items-center">
-				<div class="text-center">
+				<div className="text-center">
 					<h1>Giuseppe Vigneri</h1>
 					<p>Web Developer</p>
 				</div>

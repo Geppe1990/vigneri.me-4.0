@@ -7,9 +7,9 @@ export default ({ children }) => {
 	return (
 		<React.Fragment>
 			<Header />
-            <div className="container mx-auto">
-                {children}
-            </div>
+				<React.Fragment>
+					{children}
+				</React.Fragment>
 			<Footer />
 		</React.Fragment>
 	)

@@ -2,7 +2,9 @@
 
 #homepage {
     #hero {
-        // height: calc(100vh - $navbarHeightDesktop);
-        height: calc(100vh - #{$navbarHeightDesktop});
+        .container {
+            // height: calc(100vh - $navbarHeightDesktop);
+            height: calc(100vh - #{$navbarHeightDesktop});
+        }
     }
 }

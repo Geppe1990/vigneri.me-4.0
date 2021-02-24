@@ -1,5 +1,5 @@
-import React from "react"
-import Menu from "../components/menu"
+import React from 'react'
+import Menu from '../components/menu'
 
 export default () => {
 	return (

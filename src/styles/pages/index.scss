@@ -1,10 +1,24 @@
 @import '../partials/variables';
 
 #homepage {
-    #hero {
-        .container {
-            // height: calc(100vh - $navbarHeightDesktop);
-            height: calc(100vh - #{$navbarHeightDesktop});
-        }
-    }
+	#hero {
+		.container {
+			// height: calc(100vh - $navbarHeightDesktop);
+			height: calc(100vh - #{$navbarHeightDesktop});
+		}
+	}
+
+	#portfolio {
+		.portfolio__element {
+			@apply m-px;
+			@apply flex;
+			@apply bg-white;
+
+			height: calc(calc(1280px - 30rem) / 4);
+
+			.portfolio__image {
+				@apply m-2;
+			}
+		}
+	}
 }

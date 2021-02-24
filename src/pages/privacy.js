@@ -1,30 +1,30 @@
-// import React from "react";
-// import Layout from "../components/layout";
+// import React from 'react';
+// import Layout from '../components/layout';
 
 // export default () => (
 //     <Layout>
-//         <div className="container">
-//             <div className="section">
-//                 <div className="card">
-//                     <h1 className="hero">Privacy Policy di vigneri.me</h1>
-//                     <div className="iub_content legal_pp">
-//                         <div className="iub_header">
+//         <div className='container'>
+//             <div className='section'>
+//                 <div className='card'>
+//                     <h1 className='hero'>Privacy Policy di vigneri.me</h1>
+//                     <div className='iub_content legal_pp'>
+//                         <div className='iub_header'>
 //                             <p>Questa Applicazione raccoglie alcuni Dati Personali dei propri Utenti.</p>
 //                             <p>Questo documento può essere stampato utilizzando il comando di stampa presente nelle impostazioni di
 //                                 qualsiasi browser.</p>
 //                         </div>
-//                         <div className="simple_pp">
-//                             <div className="one_line_col">
+//                         <div className='simple_pp'>
+//                             <div className='one_line_col'>
 //                                 <h2>Riassunto della policy</h2>
 //                             </div>
-//                             <h2 id="purposes_data">Dati personali raccolti per le seguenti finalità ed utilizzando i seguenti servizi:</h2>
-//                             <ul className="for_boxes cf">
-//                                 <li className="one_line_col">
-//                                     <ul className="for_boxes">
+//                             <h2 id='purposes_data'>Dati personali raccolti per le seguenti finalità ed utilizzando i seguenti servizi:</h2>
+//                             <ul className='for_boxes cf'>
+//                                 <li className='one_line_col'>
+//                                     <ul className='for_boxes'>
 //                                         <li>
-//                                             <div className="iconed policyicon_purpose_48">
+//                                             <div className='iconed policyicon_purpose_48'>
 //                                                 <h3>Gestione dei tag</h3>
-//                                                 <ul className="unstyled">
+//                                                 <ul className='unstyled'>
 //                                                     <li>
 //                                                         <h3>Google Tag Manager</h3>
 //                                                         <p>Dati Personali: Cookie; Dati di utilizzo</p>
@@ -34,9 +34,9 @@
 //                                         </li>
 
 //                                         <li>
-//                                             <div className="iconed policyicon_purpose_26">
+//                                             <div className='iconed policyicon_purpose_26'>
 //                                                 <h3>Interazione con social network e piattaforme esterne</h3>
-//                                                 <ul className="unstyled">
+//                                                 <ul className='unstyled'>
 //                                                     <li>
 //                                                         <h3>Pulsante +1 e widget sociali di Google+, Pulsante e widget sociali di Linkedin,
 //                                                             Pulsante Mi Piace e widget sociali di Facebook , Pulsante Tweet e widget sociali
@@ -47,9 +47,9 @@
 //                                             </div>
 //                                         </li>
 //                                         <li>
-//                                             <div className="iconed policyicon_purpose_5">
+//                                             <div className='iconed policyicon_purpose_5'>
 //                                                 <h3>Statistica</h3>
-//                                                 <ul className="unstyled">
+//                                                 <ul className='unstyled'>
 //                                                     <li>
 //                                                         <h3>Estensione User ID per Google Analytics</h3>
 //                                                         <p>Dati Personali: Cookie</p>
@@ -58,9 +58,9 @@
 //                                             </div>
 //                                         </li>
 //                                         <li>
-//                                             <div className="iconed policyicon_purpose_25">
+//                                             <div className='iconed policyicon_purpose_25'>
 //                                                 <h3>Visualizzazione di contenuti da piattaforme esterne</h3>
-//                                                 <ul className="unstyled">
+//                                                 <ul className='unstyled'>
 //                                                     <li>
 //                                                         <h3>Google Fonts</h3>
 //                                                         <p>Dati Personali: Dati di utilizzo; varie tipologie di Dati secondo quanto
@@ -80,12 +80,12 @@
 //                                     </ul>
 //                                 </li>
 //                             </ul>
-//                             <h2 id="contact_information">Informazioni di contatto</h2>
-//                             <ul className="for_boxes cf">
-//                                 <li className="one_line_col">
-//                                     <ul className="for_boxes">
+//                             <h2 id='contact_information'>Informazioni di contatto</h2>
+//                             <ul className='for_boxes cf'>
+//                                 <li className='one_line_col'>
+//                                     <ul className='for_boxes'>
 //                                         <li>
-//                                             <div className="iconed icon_owner">
+//                                             <div className='iconed icon_owner'>
 //                                                 <h3>Titolare del Trattamento dei Dati</h3>
 //                                                 <p>Vigneri Giuseppe</p>
 //                                                 <p><b>Indirizzo email del Titolare:</b> geppe1990@gmail.com</p>
@@ -95,16 +95,16 @@
 //                                 </li>
 //                             </ul>
 //                         </div>
-//                         <div className="one_line_col">
+//                         <div className='one_line_col'>
 //                             <h2>Policy completa</h2>
 //                         </div>
-//                         <div className="one_line_col">
-//                             <h2 id="owner_of_the_data"> Titolare del Trattamento dei Dati </h2>
+//                         <div className='one_line_col'>
+//                             <h2 id='owner_of_the_data'> Titolare del Trattamento dei Dati </h2>
 //                             <p>Vigneri Giuseppe</p>
 //                             <p><b>Indirizzo email del Titolare:</b> geppe1990@gmail.com</p>
 //                         </div>
-//                         <div className="one_line_col">
-//                             <h2 id="types_of_data"> Tipologie di Dati raccolti </h2>
+//                         <div className='one_line_col'>
+//                             <h2 id='types_of_data'> Tipologie di Dati raccolti </h2>
 //                             <p> Fra i Dati Personali raccolti da questa Applicazione, in modo autonomo o tramite terze parti, ci sono:
 //                                 Cookie; Dati di utilizzo; email; username; nome; cognome; numero di telefono; professione; provincia;
 //                                 nazione; CAP; data di nascita; città. </p>
@@ -125,8 +125,8 @@
 //                                 questa Applicazione e garantisce di avere il diritto di comunicarli o diffonderli, liberando il Titolare da
 //                                 qualsiasi responsabilità verso terzi.</p>
 //                         </div>
-//                         <div className="one_line_col">
-//                             <h2 id="place_of_processing">Modalità e luogo del trattamento dei Dati raccolti</h2>
+//                         <div className='one_line_col'>
+//                             <h2 id='place_of_processing'>Modalità e luogo del trattamento dei Dati raccolti</h2>
 //                             <h3>Modalità di trattamento</h3>
 //                             <p>Il Titolare adotta le opportune misure di sicurezza volte ad impedire l’accesso, la divulgazione, la modifica
 //                                 o la distruzione non autorizzate dei Dati Personali. <br /> Il trattamento viene effettuato mediante strumenti
@@ -185,8 +185,8 @@
 //                                 allo spirare di tale termine il diritto di accesso, cancellazione, rettificazione ed il diritto alla
 //                                 portabilità dei Dati non potranno più essere esercitati.</p>
 //                         </div>
-//                         <div className="one_line_col">
-//                             <h2 id="use_collected_data">Finalità del Trattamento dei Dati raccolti</h2>
+//                         <div className='one_line_col'>
+//                             <h2 id='use_collected_data'>Finalità del Trattamento dei Dati raccolti</h2>
 //                             <p> I Dati dell’Utente sono raccolti per consentire al Titolare di fornire il Servizio, adempiere agli obblighi
 //                                 di legge, rispondere a richieste o azioni esecutive, tutelare i propri diritti ed interessi (o quelli di
 //                                 Utenti o di terze parti), individuare eventuali attività dolose o fraudolente, nonché per le seguenti
@@ -199,14 +199,14 @@
 //                                 ciascuna finalità, l’Utente può fare riferimento alla sezione “Dettagli sul trattamento dei Dati Personali”.
 //                             </p>
 //                         </div>
-//                         <div className="one_line_col">
-//                             <h2 id="data_processing_detailed_info">Dettagli sul trattamento dei Dati Personali</h2>
+//                         <div className='one_line_col'>
+//                             <h2 id='data_processing_detailed_info'>Dettagli sul trattamento dei Dati Personali</h2>
 //                             <p>I Dati Personali sono raccolti per le seguenti finalità ed utilizzando i seguenti servizi:</p>
-//                             <ul className="for_boxes">
+//                             <ul className='for_boxes'>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_359233">Commento dei contenuti</h3>
-//                                         <div className="expand-content">
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_359233'>Commento dei contenuti</h3>
+//                                         <div className='expand-content'>
 //                                             <p>I servizi di commento consentono agli Utenti di formulare e rendere pubblici propri commenti
 //                                                 riguardanti il contenuto di questa Applicazione.<br /> Gli Utenti, a seconda delle
 //                                                 impostazioni decise dal Titolare, possono lasciare il commento anche in forma anonima. Nel
@@ -217,15 +217,15 @@
 //                                                 Utenti non utilizzino il servizio di commento, lo stesso raccolga dati di traffico relativi
 //                                                 alle pagine in cui il servizio di commento è installato.</p>
 //                                             <h4>Facebook Comments (Facebook, Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Facebook Comments è un servizio gestito da Facebook, Inc. che consente all’Utente di
 //                                                     lasciare propri commenti e condividerli all’interno della piattaforma Facebook.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://www.facebook.com/privacy/explanation"
+//                                             <p> Luogo del trattamento: USA – <a href='https://www.facebook.com/privacy/explanation'
 //                                                     >Privacy Policy</a>. </p>
 //                                             <h4>Sistema di commento gestito in modo diretto (Questa Applicazione)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Questa Applicazione dispone di un proprio sistema di commento dei contenuti.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: email; username. </p>
@@ -233,11 +233,11 @@
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_359236">Contattare l'Utente</h3>
-//                                         <div className="expand-content">
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_359236'>Contattare l'Utente</h3>
+//                                         <div className='expand-content'>
 //                                             <h4>Mailing List o Newsletter (Questa Applicazione)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Con la registrazione alla mailing list o alla newsletter, l’indirizzo email dell’Utente
 //                                                     viene automaticamente inserito in una lista di contatti a cui potranno essere trasmessi
 //                                                     messaggi email contenenti informazioni, anche di natura commerciale e promozionale,
@@ -248,14 +248,14 @@
 //                                             <p> Dati Personali trattati: CAP; città; cognome; data di nascita; email; nazione; nome; numero
 //                                                 di telefono; professione; provincia. </p>
 //                                             <h4>Modulo di contatto (questa Applicazione)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>L’Utente, compilando con i propri Dati il modulo di contatto, acconsente al loro utilizzo
 //                                                     per rispondere alle richieste di informazioni, di preventivo, o di qualunque altra
 //                                                     natura indicata dall’intestazione del modulo.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: cognome; email; nome; numero di telefono. </p>
 //                                             <h4>Contatto via telefono (questa Applicazione)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Gli Utenti che hanno fornito il proprio numero di telefono potrebbero essere contattati
 //                                                     per finalità commerciali o promozionali collegate a questa Applicazione, così come per
 //                                                     soddisfare richieste di supporto.</p>
@@ -265,31 +265,31 @@
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_5345690">Gestione contatti e invio di messaggi
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_5345690'>Gestione contatti e invio di messaggi
 //                                         </h3>
-//                                         <div className="expand-content">
+//                                         <div className='expand-content'>
 //                                             <p>Questo tipo di servizi consente di gestire un database di contatti email, contatti telefonici
 //                                                 o contatti di qualunque altro tipo, utilizzati per comunicare con l’Utente.<br /> Questi
 //                                                 servizi potrebbero inoltre consentire di raccogliere dati relativi alla data e all’ora di
 //                                                 visualizzazione dei messaggi da parte dell’Utente, così come all’interazione dell'Utente con
 //                                                 essi, come le informazioni sui click sui collegamenti inseriti nei messaggi.</p>
 //                                             <h4>MailUp (MailUp)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>MailUp è un servizio di gestione indirizzi e invio di messaggi email fornito da MailUp
 //                                                     S.p.A.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: email. </p>
 //                                             <p> Luogo del trattamento: Italia – <a
-//                                                     href="https://www.mailup.it/informativa-privacy/mailup-spa/" 
+//                                                     href='https://www.mailup.it/informativa-privacy/mailup-spa/' 
 //                                                     >Privacy Policy</a>. </p>
 //                                         </div>
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_5351100">Gestione dei database di Utenti</h3>
-//                                         <div className="expand-content">
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_5351100'>Gestione dei database di Utenti</h3>
+//                                         <div className='expand-content'>
 //                                             <p>Questo tipo di servizi permettono al Titolare di costruire profili utente partendo da un
 //                                                 indirizzo email, il nome o qualunque altra informazione che l'Utente fornisce a questa
 //                                                 Applicazione, così come di tracciare le attività dell'Utente tramite funzionalità
@@ -300,22 +300,22 @@
 //                                                 programmato di messaggi all'Utente, come email basate su azioni specifiche compiute su
 //                                                 questa Applicazione.</p>
 //                                             <h4>ZOHO CRM (Zoho Corporation Pvt. Ltd.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>ZOHO CRM è un servizio di gestione dei database di Utenti fornito da Zoho Corporation
 //                                                     Pvt. Ltd.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: email; varie tipologie di Dati secondo quanto specificato dalla
 //                                                 privacy policy del servizio. </p>
-//                                             <p> Luogo del trattamento: Stati Uniti – <a href="https://www.zoho.com/privacy.html"
+//                                             <p> Luogo del trattamento: Stati Uniti – <a href='https://www.zoho.com/privacy.html'
 //                                                     >Privacy Policy</a>. Soggetto aderente al
 //                                                 Privacy Shield. </p>
 //                                         </div>
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_376854">Gestione dei pagamenti</h3>
-//                                         <div className="expand-content">
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_376854'>Gestione dei pagamenti</h3>
+//                                         <div className='expand-content'>
 //                                             <p>I servizi di gestione dei pagamenti permettono a questa Applicazione di processare pagamenti
 //                                                 tramite carta di credito, bonifico bancario o altri strumenti. I dati utilizzati per il
 //                                                 pagamento vengono acquisiti direttamente dal gestore del servizio di pagamento richiesto
@@ -323,7 +323,7 @@
 //                                                 potrebbero inoltre permettere l'invio programmato di messaggi all'Utente, come email
 //                                                 contenenti fatture o notifiche riguardanti il pagamento.</p>
 //                                             <h4>PayPal (Paypal)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>PayPal è un servizio di pagamento fornito da PayPal Inc., che consente all’Utente di
 //                                                     effettuare pagamenti online.</p>
 //                                             </div>
@@ -333,85 +333,85 @@
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_6373747">Gestione dei tag</h3>
-//                                         <div className="expand-content">
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_6373747'>Gestione dei tag</h3>
+//                                         <div className='expand-content'>
 //                                             <p>Questo tipo di servizi è funzionale alla gestione centralizzata dei tag o script utilizzati
 //                                                 su questa Applicazione.<br /> L'uso di tali servizi comporta il fluire dei Dati dell'Utente
 //                                                 attraverso gli stessi e, se del caso, la loro ritenzione.</p>
 //                                             <h4>Google Tag Manager (Google Ireland Limited)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Google Tag Manager è un servizio di gestione dei tag fornito da Google Ireland Limited.
 //                                                 </p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: Irlanda – <a href="https://policies.google.com/privacy"
+//                                             <p> Luogo del trattamento: Irlanda – <a href='https://policies.google.com/privacy'
 //                                                     >Privacy Policy</a>. Soggetto aderente al
 //                                                 Privacy Shield. </p>
 //                                         </div>
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_5351104">Gestione delle richieste di supporto e
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_5351104'>Gestione delle richieste di supporto e
 //                                             contatto</h3>
-//                                         <div className="expand-content">
+//                                         <div className='expand-content'>
 //                                             <p>Questo tipo di servizi permette a questa Applicazione di gestire le richieste di supporto e
 //                                                 contatto pervenute tramite email o tramite altri strumenti, come il form di contatto.<br /> I
 //                                                 Dati Personali trattati dipendono dalle informazioni fornite dall’Utente all’interno dei
 //                                                 messaggi e dallo strumento utilizzato per la comunicazione (ad esempio l’indirizzo email).
 //                                             </p>
 //                                             <h4>Zendesk (Zendesk, Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Zendesk è un servizio di gestione delle richieste di supporto e contatto fornito da
 //                                                     Zendesk, Inc.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: varie tipologie di Dati secondo quanto specificato dalla privacy
 //                                                 policy del servizio. </p>
-//                                             <p> Luogo del trattamento: Stati Uniti – <a href="https://www.zendesk.com/company/privacy"
+//                                             <p> Luogo del trattamento: Stati Uniti – <a href='https://www.zendesk.com/company/privacy'
 //                                                     >Privacy Policy</a>. Soggetto aderente al
 //                                                 Privacy Shield. </p>
 //                                         </div>
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_376844">Heat mapping</h3>
-//                                         <div className="expand-content">
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_376844'>Heat mapping</h3>
+//                                         <div className='expand-content'>
 //                                             <p>I servizi di Heat Mapping sono utilizzati per individuare quali aree di una pagina sono
 //                                                 oggetto del passaggio del cursore o di click del mouse in modo da rilevare quali di esse
 //                                                 attraggono il maggior interesse. Questi servizi permettono di monitorare e analizzare i dati
 //                                                 di traffico e servono a tener traccia del comportamento dell’Utente.</p>
 //                                             <h4>ClickTale (ClickTale Ltd.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>ClickTale è un servizio di heat mapping fornito da ClickTale Ltd.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: Israele – <a href="https://www.clicktale.com/privacy-policy"
+//                                             <p> Luogo del trattamento: Israele – <a href='https://www.clicktale.com/privacy-policy'
 //                                                     >Privacy Policy</a> – <a
-//                                                     href="https://www.clicktale.net/disable.html" >Opt Out</a>. </p>
+//                                                     href='https://www.clicktale.net/disable.html' >Opt Out</a>. </p>
 //                                             <h4>Hotjar Heat Maps &amp; Recordings (Hotjar Ltd.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Hotjar è un servizio di heat mapping e di registrazione delle sessioni fornito da Hotjar
 //                                                     Ltd.<br /> Hotjar rispetta gli header generici „Do Not Track”. Questo significa che il
 //                                                     browser può indicare allo script di non raccogliere alcun dato dell’Utente. Si tratta di
 //                                                     un'impostazione che è disponibile in tutti i principali browser. Maggiori <a
-//                                                         href="https://www.hotjar.com/opt-out">Informazioni sull'opt-out</a> da Hotjar sono
+//                                                         href='https://www.hotjar.com/opt-out'>Informazioni sull'opt-out</a> da Hotjar sono
 //                                                     disponibili qui.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo; varie tipologie di Dati secondo quanto
 //                                                 specificato dalla privacy policy del servizio. </p>
-//                                             <p> Luogo del trattamento: Malta – <a href="https://www.hotjar.com/privacy" 
-//                                                     >Privacy Policy</a> – <a href="https://www.hotjar.com/opt-out"
+//                                             <p> Luogo del trattamento: Malta – <a href='https://www.hotjar.com/privacy' 
+//                                                     >Privacy Policy</a> – <a href='https://www.hotjar.com/opt-out'
 //                                                     >Opt Out</a>. </p>
 //                                         </div>
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_376855">Interazione con social network e
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_376855'>Interazione con social network e
 //                                             piattaforme esterne</h3>
-//                                         <div className="expand-content">
+//                                         <div className='expand-content'>
 //                                             <p>Questo tipo di servizi permette di effettuare interazioni con i social network, o con altre
 //                                                 piattaforme esterne, direttamente dalle pagine di questa Applicazione.<br /> Le interazioni e
 //                                                 le informazioni acquisite da questa Applicazione sono in ogni caso soggette alle
@@ -421,47 +421,47 @@
 //                                                 dai rispettivi servizi per assicurarsi che i dati elaborati su questa Applicazione non
 //                                                 vengano ricollegati al profilo dell'Utente.</p>
 //                                             <h4>Pulsante +1 e widget sociali di Google+ (Google Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Il pulsante +1 e i widget sociali di Google+ sono servizi di interazione con il social
 //                                                     network Google+, forniti da Google Inc.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://www.google.com/intl/policies/privacy/"
+//                                             <p> Luogo del trattamento: USA – <a href='https://www.google.com/intl/policies/privacy/'
 //                                                     >Privacy Policy</a>. </p>
 //                                             <h4>Pulsante e widget sociali di Linkedin (LinkedIn Corporation)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Il pulsante e i widget sociali di LinkedIn sono servizi di interazione con il social
 //                                                     network Linkedin, forniti da LinkedIn Corporation.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://www.linkedin.com/legal/privacy-policy"
+//                                             <p> Luogo del trattamento: USA – <a href='https://www.linkedin.com/legal/privacy-policy'
 //                                                     >Privacy Policy</a>. </p>
 //                                             <h4>Pulsante Mi Piace e widget sociali di Facebook (Facebook, Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Il pulsante “Mi Piace” e i widget sociali di Facebook sono servizi di interazione con il
 //                                                     social network Facebook, forniti da Facebook, Inc.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://www.facebook.com/privacy/explanation"
+//                                             <p> Luogo del trattamento: USA – <a href='https://www.facebook.com/privacy/explanation'
 //                                                     >Privacy Policy</a>. </p>
 //                                             <h4>Pulsante Tweet e widget sociali di Twitter (Twitter)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Il pulsante Tweet e i widget sociali di Twitter sono servizi di interazione con il social
 //                                                     network Twitter, forniti da Twitter Inc.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://twitter.com/privacy" 
+//                                             <p> Luogo del trattamento: USA – <a href='https://twitter.com/privacy' 
 //                                                     >Privacy Policy</a>. </p>
 //                                             <h4>Pulsante “Pin it” e widget sociali di Pinterest (Pinterest)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Il pulsante “Pin it” e widget sociali di Pinterest sono servizi di interazione con la
 //                                                     piattaforma Pinterest, forniti da Pinterest Inc.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://about.pinterest.com/en/privacy-policy"
+//                                             <p> Luogo del trattamento: USA – <a href='https://about.pinterest.com/en/privacy-policy'
 //                                                     >Privacy Policy</a>. </p>
 //                                             <h4>Shareaholic (Shareaholic, Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Shareaholic è un servizio fornito da Shareaholic, Inc. che visualizza un widget che
 //                                                     permette l’interazione con social network e piattaforme esterne e la condivisione dei
 //                                                     contenuti di questa Applicazione.<br /> A seconda della configurazione, questo servizio
@@ -471,61 +471,61 @@
 //                                                     relativi alle pagine in cui questo servizio è installato.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://shareaholic.com/privacy/" 
+//                                             <p> Luogo del trattamento: USA – <a href='https://shareaholic.com/privacy/' 
 //                                                     >Privacy Policy</a> – <a
-//                                                     href="https://shareaholic.com/privacy/choices">Opt Out</a>. </p>
+//                                                     href='https://shareaholic.com/privacy/choices'>Opt Out</a>. </p>
 //                                         </div>
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_5351106">Monitoraggio dell'infrastruttura</h3>
-//                                         <div className="expand-content">
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_5351106'>Monitoraggio dell'infrastruttura</h3>
+//                                         <div className='expand-content'>
 //                                             <p>Questo tipo di servizi permette a questa Applicazione di monitorare l’utilizzo ed il
 //                                                 comportamento di componenti della stessa, per consentirne il miglioramento delle prestazioni
 //                                                 e delle funzionalità, la manutenzione o la risoluzione di problemi.<br /> I Dati Personali
 //                                                 trattati dipendono dalle caratteristiche e della modalità d’implementazione di questi
 //                                                 servizi, che per loro natura filtrano l’attività di questa Applicazione.</p>
 //                                             <h4>StatusCake (TrafficCake Limited)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>StatusCake è un servizio di monitoraggio fornito da TrafficCake Limited.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: Regno Unito – <a href="https://www.statuscake.com/privacy-policy/"
+//                                             <p> Luogo del trattamento: Regno Unito – <a href='https://www.statuscake.com/privacy-policy/'
 //                                                     >Privacy Policy</a>. </p>
 //                                         </div>
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_376843">Protezione dallo SPAM</h3>
-//                                         <div className="expand-content">
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_376843'>Protezione dallo SPAM</h3>
+//                                         <div className='expand-content'>
 //                                             <p>Questo tipo di servizi analizza il traffico di questa Applicazione, potenzialmente contenente
 //                                                 Dati Personali degli Utenti, al fine di filtrarlo da parti di traffico, messaggi e contenuti
 //                                                 riconosciuti come SPAM.</p>
 //                                             <h4>Akismet (Automattic Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Akismet è un servizio di protezione dallo SPAM fornito da Automattic Inc.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: varie tipologie di Dati secondo quanto specificato dalla privacy
 //                                                 policy del servizio. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://automattic.com/privacy/" 
+//                                             <p> Luogo del trattamento: USA – <a href='https://automattic.com/privacy/' 
 //                                                     >Privacy Policy</a>. </p>
 //                                             <h4>VERSCaptcha (Versatility Werks)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>VERSCaptcha è un servizio di protezione dallo SPAM fornito da Versatility Werks.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: varie tipologie di Dati secondo quanto specificato dalla privacy
 //                                                 policy del servizio. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://www.iubenda.com/privacy-policy/497669"
+//                                             <p> Luogo del trattamento: USA – <a href='https://www.iubenda.com/privacy-policy/497669'
 //                                                     >Privacy Policy</a>. </p>
 //                                         </div>
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_2508682">Pubblicità</h3>
-//                                         <div className="expand-content">
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_2508682'>Pubblicità</h3>
+//                                         <div className='expand-content'>
 //                                             <p>Questo tipo di servizi consentono di utilizzare i Dati dell’Utente per finalità di
 //                                                 comunicazione commerciale in diverse forme pubblicitarie, quali il banner, anche in
 //                                                 relazione agli interessi dell’Utente.<br /> Ciò non significa che tutti i Dati Personali
@@ -536,39 +536,39 @@
 //                                                 rilevati anche al di fuori di questa Applicazione. Per avere maggiori informazioni in
 //                                                 merito, ti suggeriamo di verificare le informative privacy dei rispettivi servizi.</p>
 //                                             <h4>Outbrain (Outbrain Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Outbrain è un servizio di advertising fornito da Outbrain Inc.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; varie tipologie di Dati secondo quanto specificato dalla
 //                                                 privacy policy del servizio. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://www.outbrain.com/legal/privacy"
+//                                             <p> Luogo del trattamento: USA – <a href='https://www.outbrain.com/legal/privacy'
 //                                                     >Privacy Policy</a> – <a
-//                                                     href="https://www.outbrain.com/legal/privacy#advertising_behavioral_targeting">Opt
+//                                                     href='https://www.outbrain.com/legal/privacy#advertising_behavioral_targeting'>Opt
 //                                                     Out</a>. </p>
 //                                         </div>
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_376845">Statistica</h3>
-//                                         <div className="expand-content">
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_376845'>Statistica</h3>
+//                                         <div className='expand-content'>
 //                                             <p>I servizi contenuti nella presente sezione permettono al Titolare del Trattamento di
 //                                                 monitorare e analizzare i dati di traffico e servono a tener traccia del comportamento
 //                                                 dell’Utente.</p>
 //                                             <h4>Estensione Display Advertisers per Google Analytics (Google Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Google Analytics su questa Applicazione potrebbe utilizzare la pubblicità basata sugli
 //                                                     interessi di Google, dati sull'audience di terze parti ed informazioni dal Cookie
 //                                                     DoubleClick per estendere le statistiche con dati demografici, interessi e dati sulle
 //                                                     interazioni con gli annunci pubblicitari.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://www.google.com/intl/policies/privacy/"
+//                                             <p> Luogo del trattamento: USA – <a href='https://www.google.com/intl/policies/privacy/'
 //                                                     >Privacy Policy</a> – <a
-//                                                     href="https://tools.google.com/dlpage/gaoptout?hl=it"
+//                                                     href='https://tools.google.com/dlpage/gaoptout?hl=it'
 //                                                     >Opt Out</a>. </p>
 //                                             <h4>Estensione User ID per Google Analytics (Google Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Google Analytics su questa Applicazione utilizza una funzione chiamata User ID. Questa
 //                                                     permette un tracciamento più accurato degli Utenti assegnando ad ognuno un ID unico per
 //                                                     varie sessioni e dispositivi, ma in modo tale da non permettere a Google di identificare
@@ -581,12 +581,12 @@
 //                                                     tramite l’indirizzo email di contatto.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://www.google.com/intl/policies/privacy/"
+//                                             <p> Luogo del trattamento: USA – <a href='https://www.google.com/intl/policies/privacy/'
 //                                                     >Privacy Policy</a> – <a
-//                                                     href="https://tools.google.com/dlpage/gaoptout"
+//                                                     href='https://tools.google.com/dlpage/gaoptout'
 //                                                     >Opt Out</a>. Soggetto aderente al Privacy Shield. </p>
 //                                             <h4>Google Analytics (Google Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Google Analytics è un servizio di analisi web fornito da Google Inc. (“Google”). Google
 //                                                     utilizza i Dati Personali raccolti allo scopo di tracciare ed esaminare l’utilizzo di
 //                                                     questa Applicazione, compilare report e condividerli con gli altri servizi sviluppati da
@@ -595,23 +595,23 @@
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
 //                                             <p> Luogo del trattamento: Stati Uniti – <a
-//                                                     href="https://www.google.com/intl/it/policies/privacy/" 
+//                                                     href='https://www.google.com/intl/it/policies/privacy/' 
 //                                                     >Privacy Policy</a> – <a
-//                                                     href="https://tools.google.com/dlpage/gaoptout?hl=it"
+//                                                     href='https://tools.google.com/dlpage/gaoptout?hl=it'
 //                                                     >Opt Out</a>. </p>
 //                                             <h4>Monitoraggio conversioni di Google Ads (Google Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Il monitoraggio conversioni di Google Ads è un servizio di statistiche fornito da Google
 //                                                     LLC oppure da Google Ireland Limited, a seconda della posizione in cui questa
 //                                                     Applicazione viene utilizzata, che collega i dati provenienti dal network di annunci
 //                                                     Google Ads con le azioni compiute all'interno di questa Applicazione.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://www.google.com/intl/it/policies/privacy/"
+//                                             <p> Luogo del trattamento: USA – <a href='https://www.google.com/intl/it/policies/privacy/'
 //                                                     >Privacy Policy</a>. Soggetto aderente al
 //                                                 Privacy Shield. </p>
 //                                             <h4>Monitoraggio conversioni di Facebook Ads (pixel di Facebook) (Facebook, Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Il monitoraggio conversioni di Facebook Ads (pixel di Facebook) è un servizio di
 //                                                     statistiche fornito da Facebook, Inc. che collega i dati provenienti dal network di
 //                                                     annunci Facebook con le azioni compiute all'interno di questa Applicazione. Il pixel di
@@ -619,31 +619,31 @@
 //                                                     Facebook, Instagram e Audience Network.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://www.facebook.com/about/privacy/"
+//                                             <p> Luogo del trattamento: USA – <a href='https://www.facebook.com/about/privacy/'
 //                                                     >Privacy Policy</a>. Soggetto aderente al
 //                                                 Privacy Shield. </p>
 //                                             <h4>Wordpress Stat (Automattic Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Wordpress Stats è un servizio di statistica fornito da Automattic Inc.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: Stati Uniti – <a href="https://automattic.com/privacy/"
+//                                             <p> Luogo del trattamento: Stati Uniti – <a href='https://automattic.com/privacy/'
 //                                                     >Privacy Policy</a>. </p>
 //                                         </div>
 //                                     </div>
 //                                 </li>
 //                                 <li>
-//                                     <div className="box_primary box_10 expand">
-//                                         <h3 className="expand-click w_icon_24 policyicon_purpose_5526434">Visualizzazione di contenuti da
+//                                     <div className='box_primary box_10 expand'>
+//                                         <h3 className='expand-click w_icon_24 policyicon_purpose_5526434'>Visualizzazione di contenuti da
 //                                             piattaforme esterne</h3>
-//                                         <div className="expand-content">
+//                                         <div className='expand-content'>
 //                                             <p>Questo tipo di servizi permette di visualizzare contenuti ospitati su piattaforme esterne
 //                                                 direttamente dalle pagine di questa Applicazione e di interagire con essi.<br /> Nel caso in
 //                                                 cui sia installato un servizio di questo tipo, è possibile che, anche nel caso gli Utenti
 //                                                 non utilizzino il servizio, lo stesso raccolga dati di traffico relativi alle pagine in cui
 //                                                 è installato.</p>
 //                                             <h4>Google Fonts (Google)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Google Fonts è un servizio di visualizzazione di stili di carattere gestito da Google LLC
 //                                                     oppure da Google Ireland Limited, a seconda della posizione in cui questa Applicazione
 //                                                     viene utilizzata, che permette a questa Applicazione di integrare tali contenuti
@@ -651,42 +651,42 @@
 //                                             </div>
 //                                             <p> Dati Personali trattati: Dati di utilizzo; varie tipologie di Dati secondo quanto
 //                                                 specificato dalla privacy policy del servizio. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://www.google.it/intl/policies/privacy/"
+//                                             <p> Luogo del trattamento: USA – <a href='https://www.google.it/intl/policies/privacy/'
 //                                                     >Privacy Policy</a>. Soggetto aderente al
 //                                                 Privacy Shield. </p>
 //                                             <h4>Widget Google Maps (Google)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Google Maps è un servizio di visualizzazione di mappe gestito da Google Inc. che permette
 //                                                     a questa Applicazione di integrare tali contenuti all’interno delle proprie pagine.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="https://www.google.it/intl/it/policies/privacy/"
+//                                             <p> Luogo del trattamento: USA – <a href='https://www.google.it/intl/it/policies/privacy/'
 //                                                     >Privacy Policy</a>. </p>
 //                                             <h4>Widget Video YouTube (Google Inc.)</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>YouTube è un servizio di visualizzazione di contenuti video gestito da Google Inc. che
 //                                                     permette a questa Applicazione di integrare tali contenuti all’interno delle proprie
 //                                                     pagine.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Cookie; Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: USA – <a href="http://www.google.it/intl/it/policies/privacy/"
+//                                             <p> Luogo del trattamento: USA – <a href='http://www.google.it/intl/it/policies/privacy/'
 //                                                     >Privacy Policy</a>. </p>
 //                                             <h4>Font Awesome (Fonticons, Inc. )</h4>
-//                                             <div className="wrap">
+//                                             <div className='wrap'>
 //                                                 <p>Font Awesome è un servizio di visualizzazione di stili di carattere gestito da Fonticons,
 //                                                     Inc. che permette a questa Applicazione di integrare tali contenuti all’interno delle
 //                                                     proprie pagine.</p>
 //                                             </div>
 //                                             <p> Dati Personali trattati: Dati di utilizzo. </p>
-//                                             <p> Luogo del trattamento: Stati Uniti – <a href="https://fontawesome.com/privacy"
+//                                             <p> Luogo del trattamento: Stati Uniti – <a href='https://fontawesome.com/privacy'
 //                                                     >Privacy Policy</a>. </p>
 //                                         </div>
 //                                     </div>
 //                                 </li>
 //                             </ul>
 //                         </div>
-//                         <div className="one_line_col">
-//                             <h2 id="rights_subjects">Diritti dell’Utente</h2>
+//                         <div className='one_line_col'>
+//                             <h2 id='rights_subjects'>Diritti dell’Utente</h2>
 //                             <p>Gli Utenti possono esercitare determinati diritti con riferimento ai Dati trattati dal Titolare.</p>
 //                             <p>In particolare, l’Utente ha il diritto di:</p>
 //                             <ul>
@@ -726,14 +726,14 @@
 //                                 del Titolare indicati in questo documento. Le richieste sono depositate a titolo gratuito e evase dal
 //                                 Titolare nel più breve tempo possibile, in ogni caso entro un mese.</p>
 //                         </div>
-//                         <div className="one_line_col">
-//                             <h2 id="cookie_policy">Cookie Policy</h2>
+//                         <div className='one_line_col'>
+//                             <h2 id='cookie_policy'>Cookie Policy</h2>
 //                             <p>Questa Applicazione fa utilizzo di Cookie e altri Identificatori. Per saperne di più, l’Utente può consultare
-//                                 la <a href="//www.iubenda.com/privacy-policy/gdpr/284155/cookie-policy" title="Cookie Policy"
-//                                     className="show_comp_link iframe-preserve an-preserve">Cookie Policy</a>.</p>
+//                                 la <a href='//www.iubenda.com/privacy-policy/gdpr/284155/cookie-policy' title='Cookie Policy'
+//                                     className='show_comp_link iframe-preserve an-preserve'>Cookie Policy</a>.</p>
 //                         </div>
-//                         <div className="one_line_col">
-//                             <h2 id="further_data_processing_info">Ulteriori informazioni sul trattamento</h2>
+//                         <div className='one_line_col'>
+//                             <h2 id='further_data_processing_info'>Ulteriori informazioni sul trattamento</h2>
 //                             <h3>Difesa in giudizio</h3>
 //                             <p>I Dati Personali dell’Utente possono essere utilizzati da parte del Titolare in giudizio o nelle fasi
 //                                 preparatorie alla sua eventuale instaurazione per la difesa da abusi nell'utilizzo di questa Applicazione o
@@ -762,11 +762,11 @@
 //                                 trattamenti la cui base giuridica è il consenso, il Titolare provvederà a raccogliere nuovamente il consenso
 //                                 dell’Utente, se necessario. </p>
 //                         </div>
-//                         <div className="one_line_col">
-//                             <div className="box_primary box_10 definitions expand">
-//                                 <h3 id="definitions_and_legal_references" className="expand-click w_icon_24 icon_ribbon"> Definizioni e
+//                         <div className='one_line_col'>
+//                             <div className='box_primary box_10 definitions expand'>
+//                                 <h3 id='definitions_and_legal_references' className='expand-click w_icon_24 icon_ribbon'> Definizioni e
 //                                     riferimenti legali </h3>
-//                                 <div className="expand-content">
+//                                 <div className='expand-content'>
 //                                     <h4>Dati Personali (o Dati)</h4>
 //                                     <p>Costituisce dato personale qualunque informazione che, direttamente o indirettamente, anche in
 //                                         collegamento con qualsiasi altra informazione, ivi compreso un numero di identificazione personale,
@@ -818,7 +818,7 @@
 //                                 </div>
 //                             </div>
 //                         </div>
-//                         <div className="iub_footer">
+//                         <div className='iub_footer'>
 //                             <p> Ultima modifica: 21 agosto 2020 </p>
 //                         </div>
 //                     </div>

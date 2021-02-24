@@ -10,15 +10,7 @@
 
 	#portfolio {
 		.portfolio__element {
-			@apply m-px;
-			@apply flex;
-			@apply bg-white;
-
 			height: calc(calc(1280px - 30rem) / 4);
-
-			.portfolio__image {
-				@apply m-2;
-			}
 		}
 	}
 }

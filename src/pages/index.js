@@ -6,7 +6,7 @@ import INTRO from '../components/intro'
 import PORTFOLIO from '../components/portfolio'
 import '../styles/pages/index.scss'
 import accenti from '../assets/images/portfolio/accenti.png'
-import { portfolioLabels } from '../config/portfolio';
+import { portfolioLabels } from '../labels/portfolio';
 
 const Index = ({ data }) => {
 	return (

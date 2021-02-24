@@ -14,10 +14,14 @@ const Portfolio = ({ portfolioImages, labels }) => {
 					{portfolioImages.edges.map((brand, i) => (
 						<li
 							key={brand.node.id} 
-							className='portfolio__element bg-no-repeat bg-cover bg-center'
-							style={{backgroundImage: `url(${brand.node.publicURL})`}}
+							className='portfolio__element m-px flex bg-white'
 						>
-							{brand.node.id === labels[i].id ? labels[i].label : null}
+							<div 
+								className="portfolio__image bg-no-repeat bg-cover bg-center w-full m-2"
+								style={{backgroundImage: `url(${brand.node.publicURL})`}}
+							>
+								{brand.node.id === labels[i].id ? labels[i].label : null}
+							</div>
 						</li>
 					))}
 				</ul>

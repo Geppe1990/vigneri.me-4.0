@@ -10,4 +10,8 @@ export const portfolioLabels = [{
 		id: 'f912bf73-e30e-5d17-a569-1370669fea15',
 		label: 'redvalentino.com',
 	},
+	{
+		id: 'db187027-ae37-5898-9325-6cd86fabab50',
+		label: 'avatar'
+	}
 ];

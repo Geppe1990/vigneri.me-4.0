@@ -6,11 +6,11 @@ import '../styles/style.scss'
 export default ({ children }) => {
 	return (
 		<React.Fragment>
-			<Header />
+			{/* <Header /> */}
 				<React.Fragment>
 					{children}
 				</React.Fragment>
-			<Footer />
+			{/* <Footer /> */}
 		</React.Fragment>
 	)
 }

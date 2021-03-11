@@ -1,16 +1,5 @@
 @import '../partials/variables';
 
 #homepage {
-	#hero {
-		.container {
-			// height: calc(100vh - $navbarHeightDesktop);
-			height: calc(100vh - #{$navbarHeightDesktop});
-		}
-	}
 
-	#portfolio {
-		.portfolio__element {
-			height: calc(calc(1280px - 30rem) / 4);
-		}
-	}
 }
